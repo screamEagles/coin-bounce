@@ -7,7 +7,7 @@ const cookieParser =  require('cookie-parser');
 const cors = require('cors');
 
 const corsOptions = {
-    origin: ['http://localhost:3000'],
+    origin: ['https://coin-bounce-frontend-seven.vercel.app'],
     methods: ["POST", "GET"],
     credentials: true,
 };

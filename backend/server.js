@@ -9,7 +9,7 @@ const cors = require('cors');
 const corsOptions = {
     origin: ['https://coin-bounce-frontend-seven.vercel.app'],
     methods: ["POST", "GET"],
-    credentials: true,
+    credentials: true
 };
 
 const app = express();
